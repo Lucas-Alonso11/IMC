@@ -1,5 +1,4 @@
-const nome = document.addEventListener('nome');
-const altura = document.addEventListener('altura');
-const peso = document.addEventListener('peso');
-const calcular = document.addEventListener('calcular');
-const resultado = document.addEventListener('resultado');
+    const nome = document.getElementById('nome').value;
+    const altura = document.getElementById('altura').value;
+    const peso = document.getElementById('peso').value;
+    const resultado = document.getElementById('resultado');
