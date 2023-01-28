@@ -15,11 +15,13 @@ function calcular () {
         res.innerHTML = `O Seu IMC é: ${imc}</br>`
         
         if (imc <= 18.5) {
-            res.innerHTML += 'Baixo do Peso'
+            res.innerHTML += 'Você está <strong>abaixo do Peso</strong>'
         }else if (imc > 18.5 && imc <= 24.99) {
-            res.innerHTML += 'Normal'
+            res.innerHTML += 'Seu peso é <strong>normal</strong>'
         } else if ( imc >= 25 && imc <= 29.99) {
-            res.innerHTML += 'Sobrepeso'
+            res.innerHTML += 'Você está com <strong>Sobrepeso</strong>'
+        } else if (imc >= 30) {
+            res.innerHTML += 'Você está com <strong>obesidade</strong>, procure um médico!'
         }
     } 
         
