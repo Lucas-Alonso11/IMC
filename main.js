@@ -3,7 +3,6 @@ function calcular () {
     let peso = document.getElementById('txtp')
     let res = document.querySelector('div#res')
     
-
     if (altura.value.length == 0 || peso.value.length == 0) {
         window.alert('Digite um numero')
         res.innerHTML = 'Impossivel contar'
